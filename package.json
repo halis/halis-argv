@@ -1,0 +1,29 @@
+{
+  "name": "halis-argv",
+  "version": "1.0.0",
+  "description": "Get the argv args for node and all the other info like filename, etc (and that's it...no other extensible, pluggable frameworks)",
+  "main": "./src/argv.js",
+  "scripts": {
+    "test": "clear && mocha \"test/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halis/halis-argv.git"
+  },
+  "keywords": [
+    "argv",
+    "node",
+    "args",
+    "arguments"
+  ],
+  "author": "Chris Grimes (http://halistechnology.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/halis/halis-argv/issues"
+  },
+  "homepage": "https://github.com/halis/halis-argv#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
